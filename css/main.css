@@ -1,0 +1,607 @@
+/* CSS Document */
+
+/********************************全局标签***********************************/
+
+
+body {
+	font-family: "新宋体";
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	text-decoration: none;
+	color:#000000;
+}
+ul,p,li {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+/********************************首页样式***********************************/
+
+.clear {
+	float: none;
+}
+.quanbu {
+    background-color: #eee8dc;
+}
+.box {
+	background-color: #eee8dc;
+	background-repeat: repeat-x;
+	margin: auto;
+	height: auto;
+	width: 1000px;
+}/*----------box样式结束------------*/
+
+.top {
+	height: 439px;
+}
+.topyi {
+	background-image: url(../images/topyi.gif);
+	height: 157px;    
+}
+.zeng {
+	width:200px;
+	height:45px;
+	float:left;
+	padding-left:100px;
+	padding-top:108px
+}
+
+.zeng a {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.zeng a:hover {
+	color: #edda01;    
+}
+.daohang {
+	float: right;
+	width: 450px;
+	margin-top:50px;
+}
+
+.daohang ul {
+	line-height: 14px;
+}
+
+.daohang ul li {
+	float:left;
+	width: 30px;
+	margin-right: 54px;
+	padding-left:6px;
+	
+}
+
+.daohang ul li a {
+	color: #ffffff;
+	display: block;
+    width: 8px;
+    line-height: 16px;
+	margin-top:6px;
+}
+.daohang ul li a:hover {
+	color: #edda01;
+}
+.toper {
+	background-image: url(../images/toper.gif);
+	height: 282px;   
+}
+.center {
+	height: 858px;
+	background-image: url(../images/erbeijing.png);
+	background-repeat: no-repeat;
+}
+.left {
+	float: left;
+	height: auto;
+	width: 246px;
+	margin-top:21px;
+}
+.left1 {
+	height: 180px;
+	background-image: url(../images/denghuming_06.jpg);
+	width: 230px;
+	margin:auto;
+}
+
+.left2 {
+	height: 196px;
+	background-image: url(../images/shuyouzhengcang.gif);
+	width: 230px;
+	margin: 24px auto auto auto;
+}
+.shuyou {
+	height: 138px;
+	width: 178px;
+	padding-top:39px;
+	margin-left:28px;
+}
+.left3 {
+	height: 230px;
+	background-image: url(../images/wenxuedongtai.gif);
+	width: 230px;
+	margin: 24px auto auto auto;
+	
+}
+
+.txt {
+	list-style-position: inside;
+	list-style-type: disc;
+	line-height: 22px;
+	padding-top: 38px;
+	padding-left:20px;
+}
+.txt a:hover {
+	color: #FF0000;    
+}
+.genfduo {
+	margin-left: 150px; 
+	margin-top:8px;   
+}
+.genfduo a:hover {
+    color: #897036; 
+}
+.left4{
+	height: 178px;
+	background-image: url(../images/lianxiwomen.gif);
+	width: 230px;
+	margin: 24px auto auto auto;
+}
+.txtlianxi {
+	line-height: 22px;
+	padding-top: 38px;
+	padding-left:20px;
+}
+.right {
+	float: right;
+	height: auto;
+	width: 735px;
+	margin-top:21px;
+}
+.right1 {
+	height: 220px;
+	background: url(../images/wenxueshi.gif) no-repeat;
+	line-height:20px;
+	padding-left:10px;
+	padding-top:35px;
+}
+.right1 p {
+  
+	text-indent:2em;
+}
+.right1 img{
+	margin-right:10px;
+	margin-bottom:10px;
+	float:left;
+	
+}
+.txtlishi {
+    margin-left:10px;
+	margin-top:40px;
+
+}
+.right2 {
+	height: 187px;
+	background-image: url(../images/jingpintuijian.gif);
+	background-repeat: no-repeat;
+	width: 717px;
+	margin-top:7px;
+}
+.right2 p {
+    padding-top:10px;
+    margin-left:550px;
+}
+.right3 {
+	background-image: url(../images/rerenjianj.gif);
+	background-repeat: no-repeat;
+	width: 717px;
+	margin-top:3px;
+	height: 165px;
+	line-height:20px;
+	padding-left:15px;
+	padding-top:40px;
+}
+.right3 p {
+   
+	text-indent:2em;
+}
+.right3 img{
+	margin-right:10px;
+	margin-bottom:10px;
+	float:left;
+	
+}
+.txtp {
+   
+   margin-left:600px;
+}
+
+.right4 {
+	background-image: url(../images/zhumingzuozhe.gif);
+	background-repeat: no-repeat;
+	width: 717px;
+	height: 187px;
+	margin-top:9px;
+}
+.right4 p {
+    padding-top:10px;
+    margin-left:550px;
+}
+.bottom {
+	height: 150px;
+	margin-top: 29px;
+}
+.bottom1 {
+	background-image: url(../images/yoqinglianjie.gif);
+	height: 66px;
+	width: 972px;	
+	margin-left: 7px;
+}
+.lianjie1 {
+    padding-top:10px;
+	padding-left:30px;
+}
+
+
+.lianjie1 a {
+    display: block;
+	float:left;
+	margin-left:28px; 
+}
+
+.lianjie1 a:hover {
+    color: #FF0000;    
+}
+.lianjie2 {
+    padding-top:30px;
+	padding-left:30px
+}
+.lianjie2 a {
+    display: block;
+	float:left;
+	margin-left:28px; 
+}
+
+.lianjie2 a:hover {
+    color: #FF0000;    
+}
+.bottom2 {
+	margin-top:7px;
+	background-image: url(../images/bottom.gif);
+	height: 77px;
+}
+.bottom2 p {
+	text-align: center;
+	margin: auto;
+	padding-top:20px;
+}
+/********************************首页样式结束***********************************/
+
+
+
+/***************************************sub1开始**************************************************/
+.center1 {
+	height: 858px;
+	background-image: url(../images/erbeijing.png);
+	background-repeat: no-repeat;
+}
+.luxun1{
+	height: 51px;
+	width: 996px;
+}
+.left_L1 {
+	float: left;
+	height: auto;
+	width: 246px;
+}
+
+left_14{
+	height: 207px;
+	width: 246px;
+	border: 1px solid #0000CC;
+}
+.left_14 {
+	height: 207px;
+	width: 246px;
+}
+.left_15{
+	height: 183px;
+	width: 232px;
+	margin-right: 5px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.left_16{
+	height: 196px;
+	background-image: url(../images/shuyouzhengcang.gif);
+	width: 230px;
+	margin: 24px auto auto auto;
+}
+.shuyou1 {
+	height: 138px;
+	width: 178px;
+	padding-top:39px;
+	margin-left:28px;
+}
+.left_17{
+	height: 178px;
+	background-image: url(../images/lianxiwomen.gif);
+	width: 230px;
+	margin: 24px auto auto auto;
+}
+.txtlianxi1 {
+	line-height: 22px;
+	padding-top: 38px;
+	padding-left:20px;
+}
+.right_R1 {
+	float: right;
+	height: auto;
+	width: 724px;
+	margin-right: 5px;
+	margin-left: 5px;
+	line-height: 32px;
+	font-size: 12px;
+	padding: 5px;
+}
+.right_R1 p{
+	text-indent: 2em;
+}
+.right_R1 img{
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 10px;
+	border: 1px solid #666666;
+}
+.cealer1{
+	clear: both;
+}
+
+/***************************************sub1结束**************************************************/
+
+/***************************************sub2开始**************************************************/
+.center2 {
+	height: 858px;
+	background-image: url(../images/erbeijing.png);
+	background-repeat: no-repeat;
+}
+.luxun2{
+	height: 51px;
+	width: 996px;
+}
+.left_L2 {
+	float: left;
+	height: auto;
+	width: 246px;
+}
+
+left_10 {
+	height: 207px;
+	width: 246px;
+	border: 1px solid #0000CC;
+}
+.left_10 {
+	height: 207px;
+	width: 246px;
+}
+.left_11{
+	height: 183px;
+	width: 232px;
+	margin-right: 5px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.left_12{
+	height: 196px;
+	background-image: url(../images/shuyouzhengcang.gif);
+	width: 230px;
+	margin: 24px auto auto auto;
+}
+.shuyou2 {
+	height: 138px;
+	width: 178px;
+	padding-top:39px;
+	margin-left:28px;
+}
+.left_13{
+	height: 178px;
+	background-image: url(../images/lianxiwomen.gif);
+	width: 230px;
+	margin: 24px auto auto auto;
+}
+.txtlianxi2 {
+	line-height: 22px;
+	padding-top: 38px;
+	padding-left:20px;
+}
+.right_R2 {
+	float: right;
+	height: auto;
+	width: 724px;
+	margin-right: 5px;
+	margin-left: 5px;
+	line-height: 35px;
+	font-size: 12px;
+	padding: 5px;
+}
+.right_R2 p{
+	text-indent: 2em;
+}
+.right_R2 img{
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 10px;
+	border: 1px solid #666666;
+}
+.cealer2{
+	clear: both;
+}
+
+/***************************************sub2结束**************************************************/
+/****************************************sub3开始*************************************************/
+.center3 {
+	height: 858px;
+	background-image: url(../images/erbeijing.png);
+	background-repeat: no-repeat;
+}
+.luxun3 {
+	height: 51px;
+	width: 996px;
+}
+.left_L3 {
+	float: left;
+	height: auto;
+	width: 246px;
+}
+
+left_1 {
+	height: 207px;
+	width: 246px;
+	border: 1px solid #0000CC;
+}
+.left_1 {
+	height: 207px;
+	width: 246px;
+}
+.left_2 {
+	height: 183px;
+	width: 232px;
+	margin-right: 5px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.left_3 {
+	height: 196px;
+	background-image: url(../images/shuyouzhengcang.gif);
+	width: 230px;
+	margin: 24px auto auto auto;
+}
+.shuyou3 {
+	height: 138px;
+	width: 178px;
+	padding-top:39px;
+	margin-left:28px;
+}
+.left_4{
+	height: 178px;
+	background-image: url(../images/lianxiwomen.gif);
+	width: 230px;
+	margin: 24px auto auto auto;
+}
+.txtlianxi3 {
+	line-height: 22px;
+	padding-top: 38px;
+	padding-left:20px;
+}
+.right_R3 {
+	float: right;
+	height: auto;
+	width: 724px;
+	margin-right: 5px;
+	margin-left: 5px;
+	line-height: 48px;
+	font-size: 12px;
+	padding: 5px;
+}
+.right_R3 p{
+	text-indent: 2em;
+}
+.right_R3 img{
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 10px;
+	border: 1px solid #666666;
+}
+.cealer3 {
+	clear: both;
+}
+/****************************************sub3结束*************************************************/
+/****************************************sub4开始*************************************************/
+.center4 {
+	height: 858px;
+	background-image: url(../images/erbeijing.png);
+	background-repeat: no-repeat;
+}
+.luxun4 {
+	height: 51px;
+	width: 996px;
+}
+.left_L4{
+	float: left;
+	height: auto;
+	width: 246px;
+}
+
+left_5 {
+	height: 207px;
+	width: 246px;
+	border: 1px solid #0000CC;
+}
+.left_5 {
+	height: 207px;
+	width: 246px;
+}
+.left_6 {
+	height: 183px;
+	width: 232px;
+	margin-right: 5px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.left_7 {
+	height: 196px;
+	background-image: url(../images/shuyouzhengcang.gif);
+	width: 230px;
+	margin: 24px auto auto auto;
+}
+.shuyou4 {
+	height: 138px;
+	width: 178px;
+	padding-top:39px;
+	margin-left:28px;
+}
+.left_8{
+	height: 178px;
+	background-image: url(../images/lianxiwomen.gif);
+	width: 230px;
+	margin: 24px auto auto auto;
+}
+.txtlianxi4 {
+	line-height: 22px;
+	padding-top: 38px;
+	padding-left:20px;
+}
+.right_R4 {
+	float: right;
+	height: auto;
+	width: 724px;
+	margin-right: 5px;
+	margin-left: 5px;
+	line-height: 48px;
+	font-size: 12px;
+	padding: 5px;
+}
+.right_R4 p{
+	text-indent: 2em;
+}
+.right_R4 img{
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 10px;
+	border: 1px solid #666666;
+}
+.cealer4 {
+	clear: both;
+}
+/***************************************sub4结束************************************************/
+
+
+
+
